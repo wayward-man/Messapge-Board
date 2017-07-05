@@ -1,0 +1,23 @@
+create table contents( 
+id int(11) not null auto_increment,
+name varchar(20) not null default'',
+content mediumtext not null,
+primary key(id)
+);
+数据表结构 contents
+
+ create table admin(
+admin_name varchar(15) not null,
+admin_password varchar(20) not null);
+数据库结构 admin
+
+
+
+数据库 MyVBP(vue bootstrap php)
+
+create table infos(
+id int primary key auto_increment,
+username varchar(20) not null,
+age       varchar(4) ,
+content   mediumtext not null
+);

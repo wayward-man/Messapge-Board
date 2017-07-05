@@ -1,0 +1,28 @@
+
+	body{
+		
+	background: burlywood; 
+	padding:0px 50px ;
+	overflow: hidden;
+	
+}
+*{
+	font-family: "微软雅黑";
+}
+
+@media only screen and (min-width:1000px ) {
+	body{
+		background: burlywood; 
+		margin: 50px 300px;
+	}
+}
+
+@keyframes move{
+	0%{color: red;}
+	50%{color: yellow;}
+	100%{color: black;}
+}
+
+.xixida{
+	animation:move 1s infinite;
+}
